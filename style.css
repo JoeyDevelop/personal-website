@@ -48,6 +48,10 @@ h1 {
   align-items: center;
 }
 
+#header>h1 {
+  margin-bottom: 10px;
+}
+
 #aboutMe {
   background-color: #FCFFE7;
 }
@@ -99,9 +103,15 @@ h1 {
 
 .temporary {
   color: white;
-  margin-bottom: 20px;
+  margin: 0px 5px 20px 5px;
+  
 }
 
 .margin {
   margin-bottom: 10px;
+}
+
+.socialPNG {
+  width: 25px;
+  filter: brightness(0) invert(1);
 }
