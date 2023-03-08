@@ -26,13 +26,33 @@
     <a href="#header"><button id="backToTop">^</button></a>
   </aside>
   <main>
-    <section id="aboutMe">About Me:</section>
+    <section id="aboutMe">
+      <h2 class="scroll-reveal">About Me:</h2>
+      <img class="basicSize mySlides" src="/images/JoeyPicture.png" alt="Picture of Joey" srcset="">
+      <img class="basicSize mySlides" id="toadPic" src="/images/Toad.JPG" alt="Picture of cat" srcset="">
+      <img class="basicSize mySlides" src="/images/Yoshi.JPG" alt="Picture of cat" srcset="">
+      <img class="basicSize mySlides" src="/images/Toad&Yoshi.png" alt="Picture of cats" srcset="">
+      <img class="basicSize mySlides" src="/images/Yoshi&Toad.JPG" alt="Picture of cats" srcset="">
+      <span class="buttons">
+        <button class="slideShowLeft" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="slideShowRight" onclick="plusDivs(+1)">&#10095;</button>
+      </span>
+      <h3>I'm a 20 year old currently working as a Data Analyst. I was attending university
+        for a CS degree when I unfortunately had to pause my formal education due to personal matters.
+        I plan on finishing my degree after I get into the software development field. I am self-taught, and
+        I have been learning a variety of skills (see below) over the past 9 months.
+        <br><br>
+        On a more fun note, I love to game, socialize, and I really love my two cats
+        (click arrow to see some pictures)! Their names are, in order, Toad and Yoshi.
+      </h3>
+    </section>
     <section id="projects">Projects:</section>
     <section id="skills">Skills:</section>
     <section id="socialMedia">Social Media</section>
   </main>
   <footer>
-    <h3>social media links, personal credit</h3>
+    <h3 style="color: white;">social media links, personal credit</h3>
   </footer>
+  <script src="index.js"></script>
 </body>
 </html>
