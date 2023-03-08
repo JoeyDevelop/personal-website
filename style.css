@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #2B3467;
+  margin: 0;
+}
+
+header {
+  background-color: #2B3467;
+  min-width: 320px;
+  width: 100vw;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #2B3467;
+  min-width: 320px;
+  width: 100vw;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+section {
+  width: 100vw;
+  min-height: 400px;
+}
+
+footer {
+  background-color: #2B3467;
+  min-width: 320px;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#aboutMe {
+  background-color: #FCFFE7;
+}
+
+
+#projects {
+  background-color: #BAD7E9;
+}
+
+#skills {
+  background-color: #EB455F;
+}
+
+#socialMedia {
+  background-color: #7DB9B6
+}
+
+#backToTop {
+  background-color: #2B3467;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 40px;
+  position: fixed;
+  bottom: 100px;
+  right: 60px
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  padding: 10px;
+  background-color: #222951;
+  color: white;
+}
+
+.tab:hover {
+  background-color: #38427a;
+  transform: scale(1.2);
+  transform-origin: bottom;
+  transition: ease-in-out 0.5s;
+}
+
+.temporary {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
