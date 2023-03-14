@@ -104,6 +104,46 @@ h3 {
 
 #projects {
   background-color: #BAD7E9;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#projects>h2 {
+  font-family: 'Shantell Sans', cursive;
+  font-size: 40px;
+  margin: 20px 0px 20px 0px
+}
+
+#projects>.myProjectSlides {
+  min-height: 220px;
+  /* max-height: 154px; */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#projects>.myProjectSlides>a {
+  margin: 0px 0px 20px 0px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#projects>.myProjectSlides>a:hover {
+  transition: ease-in-out 0.5s;
+  transform: scale(1.1);
+}
+
+#projects>.myProjectSlides>h3 {
+  margin: 10px;
+}
+
+#projects>.buttons  {
+  margin: 20px 0px 10px 0px;
 }
 
 #skills {
@@ -118,7 +158,6 @@ h3 {
   font-family: 'Shantell Sans', cursive;
   font-size: 40px;
   grid-area: 1 / 1 / 2 / 2;
-  /* margin: 30px 100px 10px 0px; */
   margin: 0px;
 }
 

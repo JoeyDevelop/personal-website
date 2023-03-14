@@ -27,7 +27,7 @@
   </aside>
   <main>
     <section id="aboutMe">
-      <h2 class="shantell">About Me:</h2>
+      <h2>About Me:</h2>
       <img class="basicSize mySlides" src="/images/JoeyPicture.png" alt="Picture of Joey" srcset="">
       <img class="basicSize mySlides" id="toadPic" src="/images/Toad.JPG" alt="Picture of cat" srcset="">
       <img class="basicSize mySlides" src="/images/Yoshi.JPG" alt="Picture of cat" srcset="">
@@ -40,13 +40,57 @@
       <h3>I'm a 20 year old currently working as a Data Analyst. I was attending university
         for a CS degree when I unfortunately had to pause my formal education due to personal matters.
         I plan on finishing my degree after I get into the software development field. I am self-taught, and
-        I have been learning a variety of skills (see below) over the past 9 months.
+        I have been learning a variety of skills (see below) over the past 9 months while working two jobs
+        (60-70 hour weeks).
         <br><br>
         On a more fun note, I love to game, socialize, and I really love my two cats
         (click arrows to see some pictures)! Their names are, in order, Toad and Yoshi.
       </h3>
     </section>
-    <section id="projects">Projects:</section>
+    <section id="projects">
+      <h2>My Projects:</h2>
+      <div class="myProjectSlides">
+        <a target="_blank" href="https://github.com/JoeyDevelop/cv-app/tree/main">CV App</a>
+        <h3>The CV App was created as practice using React. I learned how to use conditional
+          rendering. This app also gave me practice using/creating stateful React Components. 
+          There are two main branches on this project, but they both accomplish the same exact
+          thing on the user side. The difference is I wrote it twice so that one branch would be 
+          composed of class components, while the other would be functional components. I did both
+          so that I would be familiar with either should I run across them in a professional setting.
+        </h3>
+      </div>
+      <div class="myProjectSlides">
+        <a target="_blank" href="https://github.com/JoeyDevelop/weather_app">Weather App</a>
+        <h3>The weather app is a simple app made a couple months ago to learn about making API calls
+          and using the returned JSON information to get the information I needed and display it on the page.
+          In this app the user can simply type in the name of their city (EX: Knoxville) and the app will make
+          an API request to https://home.openweathermap.org/. Finally, the app will show the current weather (cloudy, 
+          rainy, clear), the current temperature, and the temperature high and low for the day. 
+          <a target="_blank" href="https://joeydevelop.github.io/weather_app/">(Live Preview)</a>
+        </h3>
+      </div>
+      <div class="myProjectSlides">
+        <a target="_blank" href="https://github.com/JoeyDevelop/odin-recipes">Odin Recipes</a>
+        <h3>This one is mostly just for laughs. This is my first ever webpage made about 9 months ago. Though I mostly put
+          this on my website as a little "ha-ha" moment, It does give reference to how much I've learned while being self-taught 
+          and working two jobs. But who knows, maybe this incredible page will give you an idea on a desert for later! 
+          <a target="_blank" href="https://joeydevelop.github.io/odin-recipes/">(Live Preview)</a>
+        </h3>
+      </div>
+      <div class="myProjectSlides">
+        <a target="_blank" href="https://github.com/JoeyDevelop/instagram-clone">Instagram Clone</a>
+        <h3>This one is a work in progress. There will be no live preview yet but you can check in on the Github repo to check my
+          progress! This one is one of the bigger "putting everything together projects". I will be implementing everything I've learned
+          to date. This includes HTML best practices, everything js related, and more. This project also uses Firebase as a backend. Using
+          this, I plan to implement Google Auth (sign in/out), CRUD messaging, following/unfollowing other users, seeing a feed of their posts,
+          and more!
+        </h3>
+      </div>
+      <span class="buttons">
+        <button class="slideShowLeft" onclick="plusProjectDivs(-1)">&#10094;</button>
+        <button class="slideShowRight" onclick="plusProjectDivs(+1)">&#10095;</button>
+      </span>
+    </section>
     <section id="skills">
       <h2>Skills:</h2>
       <div class="lists">
